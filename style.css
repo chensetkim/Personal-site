@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+}
+
+.padding-l-20{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#section-title{
+    height: 80vh;
+    background-image:url("./gb.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.playwrite-cu {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title{
+    font-size: 50px;
+    margin: 0px;
+  }
+
+.describe{
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+}
+
+.img-profile{
+    border: 3px solid;
+    border-color: darkgoldenrod;
+    border-radius: 50%;
+    margin: 50px 20px 20px 20px;
+}
+
+.introduction{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: auto;
+}
+
+.education{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: auto;
+}
+
+.education  tr{
+    text-align: left;
+    height: 30px;
+}
+
+.education .info{
+    padding-left: 30px;
+}
+
+.skills{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: auto;
+}
+
+.contact{
+
+    text-align: left;
+    font-family: sans-serif;
+    font-size: auto;
+}
+
+#section-footer{
+    background-image: url("./gb.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    height: 40vh;
+}
+.social-media{ 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
